@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    padding-bottom: 2px;    
+}
+
+.nav{
+ 
+    display: flex;
+    justify-content:space-evenly ;
+    padding: 2px;
+    width: 100%;
+    border-bottom: 2px  rgb(88, 85, 88);
+}
+.navbar{
+    background-color: rgb(205, 216, 44);
+}
+.logo{
+   width: 10%;
+    height: 20%;
+}
+.menu{
+padding-top: 5px;
+}
+.menu:hover{
+    color: rgb(255, 0, 208);
+}
+.btn{
+    border: none;
+    width:5%;
+  border-radius: 5px;
+  background-color: rgb(40, 87, 243);
+  color: aliceblue;
+}
+@media (max-width: 600px) {
+    .navbar {
+      width: 100%;
+    }
+  }
+  @media (max-width: 600px) {
+    .navbar {
+      width: 100%;
+    }
+  }
